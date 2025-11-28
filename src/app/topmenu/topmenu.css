@@ -1,0 +1,25 @@
+.horizontal-menu {
+  list-style: none; /* supprime les puces */
+  display: flex; /* transforme la liste en ligne */
+  padding: 0;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.horizontal-menu li {
+  margin: 2px; /* pas d'espacement par défaut */
+}
+
+.horizontal-menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none; /* supprime le souligné */
+  color: #333;
+  font-weight: 800;
+}
+
+.horizontal-menu li a:hover {
+  background-color: #101322; /* bleu au survol */
+  color: #fff;
+  border-radius: 6px;
+}

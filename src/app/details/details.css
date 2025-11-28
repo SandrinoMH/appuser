@@ -1,0 +1,65 @@
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fbfcff;
+  border: 1px solid #f5f8ffff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.user-photo {
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 16px;
+  margin-right: 8px;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.job {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.detail-content {
+  color: #757575ff;
+  line-height: 24px;
+  margin-right: 20px;
+  width: 100%;
+}
+.user-galery {
+  width: 110px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+.section-detail {
+  display: flex;
+  padding-top: 34px;
+  justify-content: space-between;
+}
+.galery-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}

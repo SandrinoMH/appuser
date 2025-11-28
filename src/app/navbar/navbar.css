@@ -1,0 +1,20 @@
+.basic-input {
+  width: 250px;          /* largeur de l'input */
+  padding: 8px 12px;     /* espace intérieur */
+  font-size: 16px;       /* taille du texte */
+  border: 1px solid #ccc;/* bordure grise */
+  border-radius: 4px;    /* coins arrondis */
+  outline: none;         /* supprime le contour par défaut */
+  transition: border-color 0.3s;
+}
+
+.basic-input:focus {
+  border-color: #007bff; /* bordure bleue au focus */
+}
+
+.navbar{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

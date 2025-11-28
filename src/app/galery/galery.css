@@ -1,0 +1,31 @@
+.image-galery {
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  max-width: 110px;
+}
+.image-galery:hover {
+  transform: scale(1.05);
+}
+
+.galery-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.galery-content-popup {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image-galery-popup {
+  max-width: 35px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.image-galery-popup:hover {
+  transform: scale(1.05);
+}

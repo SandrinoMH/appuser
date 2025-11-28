@@ -1,0 +1,46 @@
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fbfcff;
+  border: 1px solid #f5f8ffff;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+}
+.card:hover {
+  border: 1px solid #e9e7e7ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+}
+
+.user-photo {
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.job {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+}
