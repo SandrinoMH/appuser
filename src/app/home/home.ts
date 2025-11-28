@@ -26,6 +26,6 @@ export class Home {
 
   isNotFound = computed(() => {
     const searchText = this.usersService.filtre().toLowerCase();
-    return searchText !== '' && this.filteredUsers().length === 0;
+    return searchText && searchText !== '' && this.filteredUsers().length === 0;
   });
 }
